@@ -45,8 +45,8 @@ shell.cp('-R', serverBuildFolderPath + '/*', productionFolderPath)
 
 
 // also copy required files from server to production
-shell.cp('-R', path.join(serverBuildFolderPath, '..', 'package.json'), productionFolderPath)
-shell.cp('-R', path.join(serverBuildFolderPath, '..', '.env'), productionFolderPath)
+// shell.cp('-R', path.join(serverBuildFolderPath, '..', 'package.json'), productionFolderPath)
+// shell.cp('-R', path.join(serverBuildFolderPath, '..', '.env'), productionFolderPath)
 
 // Zip the production folder
 if(zip) {
