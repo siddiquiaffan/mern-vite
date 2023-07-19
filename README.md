@@ -11,7 +11,7 @@
 ## Build (Production)
 ```bash
 npm i
-node buid.js --install --zip
+node build.js --install --zip
 ```
 #### Build args
 ```
